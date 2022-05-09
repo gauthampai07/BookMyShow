@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&family=Roboto+Condensed&family=Roboto+Flex:opsz,wght@8..144,300&family=Teko&display=swap');
+  
+  img {
+    border-radius:10px;
+  }
+  
+  
+  .movie_name{
+      font-size: 19px;
+      padding-top: 12px;
+      font-family: 'Poppins';
+      padding-bottom: 0px;
+      margin-bottom: 4px;
+  }
+  .movie_type{
+      font-weight: lighter;
+      color: rgb(138, 136, 136);
+      padding-top: 0%;
+  }
+  .card1, .card2, .movie_type, .movie_name, img {
+      display: block;
+      padding-left: 28px;
+  }
+
+
+

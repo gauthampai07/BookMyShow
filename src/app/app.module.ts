@@ -10,6 +10,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { ToolbarRowComponent } from './Component/toolbar-row/toolbar-row.component';
 import { ImageSliderComponent } from './Component/image-slider/image-slider.component';
+import { MovieSliderComponent } from './Component/movie-slider/movie-slider.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ImageSliderComponent } from './Component/image-slider/image-slider.comp
     AppComponent,
     ToolbarComponent,
     ToolbarRowComponent,
-    ImageSliderComponent
+    ImageSliderComponent,
+    MovieSliderComponent
    
   ],
   imports: [
