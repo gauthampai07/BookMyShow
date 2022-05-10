@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&family=Roboto+Condensed&family=Roboto+Flex:opsz,wght@8..144,300&family=Teko&display=swap');
   
-  img {
-    border-radius:10px;
+
+  img{
+    border-radius: 11px;
   }
   
-  
   .movie_name{
-      font-size: 19px;
+      font-size: 17px;
+      font-weight: lighter;
       padding-top: 12px;
       font-family: 'Poppins';
       padding-bottom: 0px;
@@ -17,10 +18,27 @@
       color: rgb(138, 136, 136);
       padding-top: 0%;
   }
-  .card1, .card2, .movie_type, .movie_name, img {
-      display: block;
-      padding-left: 28px;
-  }
+  
+  .card, .card1{
+    border-radius: 15px;
+    float: left;
+    padding:10px;
+    text-align: center;
+     border-radius: 5px;
+     margin-left: 8px;
+     margin-right: 8px;
+    
+     margin-bottom: 8px;
+}
 
-
-
+.tab1cards {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.container{
+  display: block;
+}
+.card1{
+  padding-left: 50px;
+}
